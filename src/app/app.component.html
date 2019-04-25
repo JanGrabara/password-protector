@@ -1,0 +1,46 @@
+<nav>
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo">KeysSecure App</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <!-- <li><a href="sass.html">Sass</a></li> -->
+            <!-- <li><a href="badges.html">Components</a></li> -->
+            <!-- <li><a href="collapsible.html">JavaScript</a></li> -->
+            <a class="waves-effect waves-light btn" (click)="openCredentialsAddModal()">Add Credentials</a>
+        </ul>
+    </div>
+</nav>
+
+<div class="row">
+    <div class="card-content credentials-container dark-text">
+        <app-credentials-table></app-credentials-table>
+    </div>
+</div>
+
+
+
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Jan Grabara</h5>
+                <p class="grey-text text-lighten-4">The target for this app was to create simple solutions for securing
+                    users credentials </p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Used Materials</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://material.angular.io/">Angular Material</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://materializecss.com/">Materialize</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2019 Copyright Text
+            <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+        </div>
+    </div>
+</footer>
